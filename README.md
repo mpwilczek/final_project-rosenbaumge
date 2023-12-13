@@ -5,14 +5,14 @@ Final project for BINF6308
 Gracie Rosenbaum; NUID 001474752; GitHub ID rosenbaumge; email rosenbaum.g@northeastern.edu <br/>
 Species selected: Rhodobacter spheroides
 
-## Introduction
-# Goal
+# Introduction
+## Goal
 The ultimate purpose of this project is to hypothesize the function of proteins, beginning from DNA-seq and RNA-seq data. At each step, the goals are to reformat and analyze data for the next part of the pipeline. Specifically, genomes are assembled, transcriptomes are assembled, sequences of predicted proteins are annotated, and the functions themselves are identified.
 
-# Inputs
+## Inputs
 DNA-seq and RNA-seq data must be inputted, specifically through their NCBI SRA ascession numbers. This project authomatically uses the data for B. subtilis to run.
 
-# Tools and Resources
+## Tools and Resources
 1. BLAST (Basic Local Alignment Search Tool): "finds regions of local similarity between sequences."[1]
 2. GSNAP (Genomic Short-read Nucleotide Alignment Program): "a tool to align single- and paired-end reads to a reference genome" [2]
 3. hmmscan: tool for "biosequence analysis using profile hidden Markov Models" [3]
@@ -25,10 +25,10 @@ DNA-seq and RNA-seq data must be inputted, specifically through their NCBI SRA a
 10. trimmomatic: "a flexible read trimming tool for Illumina NGS data" [10]
 11. Trinity: "fully reconstructs a large fraction of the transcripts present in... data, also reporting alternative splice isoforms and transcripts from recently duplicated genes" [11]
 
-# Expected Output
+## Expected Output
 The four steps of the process will each output a different dataset. The data should go from the input into assemblies (as fastas), through transcriptome assembly (again via fastas and a reference genome, as well as a quality report and sam file with alignment information), into gene annotation (to get predicted protein products), to finally receive text files of predicted protein information.
 
-## References
+# References
 [1] NCBI. (2023). BLAST: Basic Local Alignment Search Tool. Nih.gov. https://blast.ncbi.nlm.nih.gov/Blast.cgi
 [2] Tammi, Dr. M. T. (n.d.). GSNAP. Bioinformaticshome.com. Retrieved December 13, 2023, from https://bioinformaticshome.com/tools/rna-seq/descriptions/GSNAP.html#gsc.tab=0
 [3] Finn, R. D., Clements, J., & Eddy, S. R. (2011). HMMER web server: interactive sequence similarity searching. Nucleic Acids Research, 39(suppl), W29–W37. https://doi.org/10.1093/nar/gkr367
