@@ -13,7 +13,7 @@ The ultimate purpose of this project is to hypothesize the function of proteins,
 DNA-seq and RNA-seq data must be inputted, specifically through their NCBI SRA ascession numbers. This project authomatically uses the data for B. subtilis to run.
 
 ## Tools and Resources
-1. BLAST (Basic Local Alignment Search Tool): "finds regions of local similarity between sequences."[1]
+1. BLAST (Basic Local Alignment Search Tool): "finds regions of local similarity between sequences."[1] 
 2. GSNAP (Genomic Short-read Nucleotide Alignment Program): "a tool to align single- and paired-end reads to a reference genome" [2]
 3. hmmscan: tool for "biosequence analysis using profile hidden Markov Models" [3]
 4. InterProScan: "combines different protein signature recognition methods into one resource" [4] 
@@ -82,14 +82,14 @@ Again, the data for this step is determined by the former. The list of predicted
 The domains, GOs, and pathways should each be expressed in their own text files.
 
 # References
-[1] NCBI. (2023). BLAST: Basic Local Alignment Search Tool. Nih.gov. https://blast.ncbi.nlm.nih.gov/Blast.cgi
-[2] Tammi, Dr. M. T. (n.d.). GSNAP. Bioinformaticshome.com. Retrieved December 13, 2023, from https://bioinformaticshome.com/tools/rna-seq/descriptions/GSNAP.html#gsc.tab=0
-[3] Finn, R. D., Clements, J., & Eddy, S. R. (2011). HMMER web server: interactive sequence similarity searching. Nucleic Acids Research, 39(suppl), W29–W37. https://doi.org/10.1093/nar/gkr367
-[4] Jones, P., Binns, D., Chang, H.-Y., Fraser, M., Li, W., McAnulla, C., McWilliam, H., Maslen, J., Mitchell, A., Nuka, G., Pesseat, S., Quinn, A. F., Sangrador-Vegas, A., Scheremetjew, M., Yong, S.-Y., Lopez, R., & Hunter, S. (2014). InterProScan 5: genome-scale protein function classification. Bioinformatics, 30(9), 1236–1240. https://doi.org/10.1093/bioinformatics/btu031
-[5] Gurevich, A., Saveliev, V., Vyahhi, N., & Tesler, G. (2013). QUAST: quality assessment tool for genome assemblies. Bioinformatics, 29(8), 1072–1075. https://doi.org/10.1093/bioinformatics/btt086
-[6] An Introduction to SAMtools: A Powerful Tool for A - Pluto Bioinformatics. (n.d.). Pluto.bio. Retrieved December 13, 2023, from https://pluto.bio/blog/intro-to-samtools
-[7] Bankevich, A., Nurk, S., Antipov, D., Gurevich, A. A., Dvorkin, M., Kulikov, A. S., Lesin, V. M., Nikolenko, S. I., Pham, S., Prjibelski, A. D., Pyshkin, A. V., Sirotkin, A. V., Vyahhi, N., Tesler, G., Alekseyev, M. A., & Pevzner, P. A. (2012). SPAdes: A New Genome Assembly Algorithm and Its Applications to Single-Cell Sequencing. Journal of Computational Biology, 19(5), 455–477. https://doi.org/10.1089/cmb.2012.0021
-[8] Lesson 6: Downloading data from the SRA - Bioinformatics for Beginners 2022. (n.d.). Bioinformatics.ccr.cancer.gov. https://bioinformatics.ccr.cancer.gov/docs/b4b/Module1_Unix_Biowulf/Lesson6/
-[9] Presa, E. (2023, February 4). Predict Coding Regions with TransDecoder. BioBam. https://www.biobam.com/transdecoder-predicting-coding-regions-within-transcripts/
-[10] Bolger, A. M., Lohse, M., & Usadel, B. (2014). Trimmomatic: a flexible trimmer for Illumina sequence data. Bioinformatics, 30(15), 2114–2120. https://doi.org/10.1093/bioinformatics/btu170
-[11] Grabherr, M. G., Haas, B. J., Yassour, M., Levin, J. Z., Thompson, D. A., Amit, I., Adiconis, X., Fan, L., Raychowdhury, R., Zeng, Q., Chen, Z., Mauceli, E., Hacohen, N., Gnirke, A., Rhind, N., di Palma, F., Birren, B. W., Nusbaum, C., Lindblad-Toh, K., & Friedman, N. (2011). Full-length transcriptome assembly from RNA-Seq data without a reference genome. Nature Biotechnology, 29(7), 644–652. https://doi.org/10.1038/nbt.1883
+[1] NCBI. (2023). BLAST: Basic Local Alignment Search Tool. Nih.gov. https://blast.ncbi.nlm.nih.gov/Blast.cgi <br/>
+[2] Tammi, Dr. M. T. (n.d.). GSNAP. Bioinformaticshome.com. Retrieved December 13, 2023, from https://bioinformaticshome.com/tools/rna-seq/descriptions/GSNAP.html#gsc.tab=0 <br/>
+[3] Finn, R. D., Clements, J., & Eddy, S. R. (2011). HMMER web server: interactive sequence similarity searching. Nucleic Acids Research, 39(suppl), W29–W37. https://doi.org/10.1093/nar/gkr367 <br/>
+[4] Jones, P., Binns, D., Chang, H.-Y., Fraser, M., Li, W., McAnulla, C., McWilliam, H., Maslen, J., Mitchell, A., Nuka, G., Pesseat, S., Quinn, A. F., Sangrador-Vegas, A., Scheremetjew, M., Yong, S.-Y., Lopez, R., & Hunter, S. (2014). InterProScan 5: genome-scale protein function classification. Bioinformatics, 30(9), 1236–1240. https://doi.org/10.1093/bioinformatics/btu031 <br/>
+[5] Gurevich, A., Saveliev, V., Vyahhi, N., & Tesler, G. (2013). QUAST: quality assessment tool for genome assemblies. Bioinformatics, 29(8), 1072–1075. https://doi.org/10.1093/bioinformatics/btt086 <br/>
+[6] An Introduction to SAMtools: A Powerful Tool for A - Pluto Bioinformatics. (n.d.). Pluto.bio. Retrieved December 13, 2023, from https://pluto.bio/blog/intro-to-samtools <br/>
+[7] Bankevich, A., Nurk, S., Antipov, D., Gurevich, A. A., Dvorkin, M., Kulikov, A. S., Lesin, V. M., Nikolenko, S. I., Pham, S., Prjibelski, A. D., Pyshkin, A. V., Sirotkin, A. V., Vyahhi, N., Tesler, G., Alekseyev, M. A., & Pevzner, P. A. (2012). SPAdes: A New Genome Assembly Algorithm and Its Applications to Single-Cell Sequencing. Journal of Computational Biology, 19(5), 455–477. https://doi.org/10.1089/cmb.2012.0021 <br/>
+[8] Lesson 6: Downloading data from the SRA - Bioinformatics for Beginners 2022. (n.d.). Bioinformatics.ccr.cancer.gov. https://bioinformatics.ccr.cancer.gov/docs/b4b/Module1_Unix_Biowulf/Lesson6/ <br/>
+[9] Presa, E. (2023, February 4). Predict Coding Regions with TransDecoder. BioBam. https://www.biobam.com/transdecoder-predicting-coding-regions-within-transcripts/ <br/>
+[10] Bolger, A. M., Lohse, M., & Usadel, B. (2014). Trimmomatic: a flexible trimmer for Illumina sequence data. Bioinformatics, 30(15), 2114–2120. https://doi.org/10.1093/bioinformatics/btu170 <br/>
+[11] Grabherr, M. G., Haas, B. J., Yassour, M., Levin, J. Z., Thompson, D. A., Amit, I., Adiconis, X., Fan, L., Raychowdhury, R., Zeng, Q., Chen, Z., Mauceli, E., Hacohen, N., Gnirke, A., Rhind, N., di Palma, F., Birren, B. W., Nusbaum, C., Lindblad-Toh, K., & Friedman, N. (2011). Full-length transcriptome assembly from RNA-Seq data without a reference genome. Nature Biotechnology, 29(7), 644–652. https://doi.org/10.1038/nbt.1883 <br/>
