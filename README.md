@@ -58,6 +58,29 @@ Details for each tool are recorded in the introduction.
 ### Expected Output
 A reference genome of the organism, assembled transcriptome, and the quality analysis should all be output from this step.
 
+## 3: Annotation
+### Goal
+Once the genes have been compiled from steps 1 and 2, they must be annotated so that the products of the proteins in these sequences can be determined and output by the end.
+### Inputs
+All of the data for this step should have been determined via steps 1 and 2. Speciiccally, it needs the assembled transcriptome.
+### Tools and Resources
+1. BLAST [1]
+2. hmmscan [3]
+3. Transdecoder [9]
+Details for each tool are recorded in the introduction.
+### Expected Output
+A text file of predicted proteins should be output. The data should analyze the information received from the transcriptome (step 2) in a readable format.
+
+## 4: Protein Function Prediction
+### Goal
+The final step is meant to wrap up the process by determining the functions of the proteins found in Step 3. Specifically, it expresses the data detailing domains, gene ontology (GO), and pathways.
+### Inputs
+Again, the data for this step is determined by the former. The list of predicted proteins should have been made in step 2.
+### Tools and Resources
+1. InterProScan [4]
+### Expected Output
+The domains, GOs, and pathways should each be expressed in their own text files.
+
 # References
 [1] NCBI. (2023). BLAST: Basic Local Alignment Search Tool. Nih.gov. https://blast.ncbi.nlm.nih.gov/Blast.cgi
 [2] Tammi, Dr. M. T. (n.d.). GSNAP. Bioinformaticshome.com. Retrieved December 13, 2023, from https://bioinformaticshome.com/tools/rna-seq/descriptions/GSNAP.html#gsc.tab=0
