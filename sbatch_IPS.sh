@@ -22,8 +22,7 @@ PREDICTED_PROTEIN_PATH=/predictedProteins
 PROTEINS=Trinity.fasta.transdecoder.pep
 ALL_PROTEINS=$INPUT_DATA_PATH$PREDICTED_PROTEIN_PATH/$PROTEINS
 OUTPUT_DATA_PATH=/results/interproscanResults
-LINES_TO_PROCESS=4100  # set to "all" to calculate everything or change the numeric value
-
+LINES_TO_PROCESS=8200
 # record these key constants to our batch*.output file by echoing them:
 echo "Key parameters"
 echo "INPUT_DATA_PATH: $INPUT_DATA_PATH"
