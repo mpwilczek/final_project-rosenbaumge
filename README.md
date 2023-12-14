@@ -40,6 +40,28 @@ These scripts use data from Bacillus subtilis sequencing, meaning that getNGS.sh
 3. SPAdes [7]
 4. QUAST [5]
 Details for each tool are recorded in the introduction.
+### Parameters
+SRA-toolkit
+- vdb-config –prefetch-to-cwd: bring files to current working directory <br/>
+- prefetch SRR22271830: specifies the accession number to fetch <br/>
+- fasterq-dump –split-3 SRR22271830: mate pair split; move unpaired sequences to a new file; all with the speciied accession number <br/>
+
+Trimmomatic
+- PE: paired-end settings <br/>
+- phred-33: quality score in Phred-33 format <br/>
+- HEADCROP:0: no lead base pairs trimmed <br/>
+- SLIDINGWINDOW:4:30: sliding window size with quality mean minimum within the window <br/>
+- MINLEN:36: mimumum length of read <br/>
+- ILLUMINACLIP: identifies path to adapters <br/>
+- LEADING:20 and TRAILING:20: eliminates base pairs at the beginning and end of the sequence if below threshold quality <br/>
+
+SPAdes
+- -1 and -2: path to input files (the 1st and 2nd mate pairs) <br/>
+- -o: output file location <br/>
+
+QUAST
+- -o: output file location <br/>
+
 ### Expected Output
 A fasta file of a genome assembly (from the contigs provided) and a text file of QUAST output (the quality check) are expected.
 
