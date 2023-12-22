@@ -3,14 +3,14 @@ Final project for BINF6308
 
 # Author Information
 Gracie Rosenbaum; NUID 001474752; GitHub ID rosenbaumge; email rosenbaum.g@northeastern.edu <br/>
-Species selected: Rhodobacter spheroides
+Species selected: Rhodobacter spheroides (ADD DATE TOO) 
 
 # Introduction
 ## Goal
 The ultimate purpose of this project is to hypothesize the function of proteins, beginning from DNA-seq and RNA-seq data. At each step, the goals are to reformat and analyze data for the next part of the pipeline. Specifically, genomes are assembled, transcriptomes are assembled, sequences of predicted proteins are annotated, and the functions themselves are identified.
 
 ## Inputs
-DNA-seq and RNA-seq data must be inputted, specifically through their NCBI SRA ascession numbers. This project authomatically uses the data for B. subtilis to run.
+DNA-seq and RNA-seq data must be inputted, specifically through their NCBI SRA ascession numbers. This project authomatically uses the data for B. subtilis to run. (ELABORATE A LITTLE MORE IN WHAT FILE TYPE IS NEEDED, ETC) 
 
 ## Tools and Resources
 1. BLAST (Basic Local Alignment Search Tool): "finds regions of local similarity between sequences."[1] 
